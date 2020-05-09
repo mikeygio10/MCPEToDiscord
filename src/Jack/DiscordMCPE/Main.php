@@ -100,7 +100,7 @@ class Main extends PluginBase implements Listener{
      * @return bool
      */
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool{
-        if($cmd->getName() == "discord"){
+        if($cmd->getName() == "mcpediscord"){
         if(!isset($args[0])){
 			//$sender->sendMessage(C::RED.$this->responses->get('invalid_command'));
             return false;
